@@ -21,6 +21,9 @@ gem 'cssbundling-rails'
 gem 'jsbundling-rails'
 gem 'propshaft'
 
+gem 'fog-aws'
+gem 'asset_sync'
+
 group :development, :test do
   gem 'debug', '1.7.0'
   gem 'rspec-rails', '~> 6.0'
@@ -35,3 +38,5 @@ group :test do
 
   gem 'test-prof'
 end
+
+gem "redis-session-store", "~> 0.11.5"
